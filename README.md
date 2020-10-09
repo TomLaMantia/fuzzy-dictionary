@@ -1,4 +1,10 @@
 # fuzzy-dictionary
+
+![Tests](https://github.com/TomLaMantia/fuzzy-dictionary/workflows/Run%20Tests/badge.svg)
+
+https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg
+
+
 A dictionary-like class that supports fuzzy key lookups, written in Python.
 
 This is essentially a dictionary wrapper class that uses the popular open-source
