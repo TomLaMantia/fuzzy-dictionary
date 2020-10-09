@@ -1,7 +1,6 @@
 # fuzzy-dictionary
 
-![Tests](https://github.com/TomLaMantia/fuzzy-dictionary/workflows/Run%20Tests/badge.svg)
-
+![Run Tests](https://github.com/TomLaMantia/fuzzy-dictionary/workflows/Run%20Tests/badge.svg)
 
 A dictionary-like class that supports fuzzy key lookups, written in Python.
 
