@@ -28,3 +28,6 @@ class FuzzyDict(dict):
         except KeyError:
             result = default
         return result
+
+    def __len__(self):
+        return len(self.data)
