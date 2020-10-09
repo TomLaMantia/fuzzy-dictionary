@@ -1,6 +1,11 @@
 # fuzzy-dictionary
 A dictionary-like class that supports fuzzy key lookups, written in Python.
 
+This is essentially a dictionary wrapper class that uses the popular open-source
+`fuzzywuzzy` (https://github.com/seatgeek/fuzzywuzzy) library in the 
+implementation of the dictionary lookup.
+
+
 ## Installation
 Run `pip install .` in the root directory of this repository.
 
@@ -31,7 +36,6 @@ The `FuzzyDict` class also supports standard methods, such as `len` and `get`
 ```
 
 In this example, `threshold` determines how much fuzziness is tolerated.
-For more information, see https://github.com/seatgeek/fuzzywuzzy.
 ```
 >>> last_cup_win = FuzzyDict(threshold=99)
 >>> last_cup_win['Toronto Maple Leafs'] = 1967
